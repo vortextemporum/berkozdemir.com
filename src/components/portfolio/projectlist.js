@@ -5,57 +5,57 @@
     short_description: "A goofy video of guitar solos",
     year: "2018",
     tags: ["video","youtube","remix"],
-    image: "https://www.allkpop.com/upload/2018/04/af_org/09102302/bambam.jpg",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: ""
   },
   {
     id: 2,
     name: "Awesome Piano Solos",
-    short_description: "A goofy video of piano solos",
+    short_description: "A goofy video of piano solos bla bla bla I love pancakes",
     year: "2018",
     tags: ["video","youtube","remix"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OO--SzI0ibU35QxGLqtcqRiU-YQP8gGeYV9oZMUGMSzodqOQsA",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: ""
 
   },
   {
     id: 3,
     name: "<caco></phony>",
-    short_description: "A composition for browsers and instruments",
-    year: "2018",
+    short_description: "Multimedia composition for browsers and instruments",
+    year: "2017",
     tags: ["composition","quartet","multimedia"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIwhOqs_-SswJlMjVQmtHKkWYn4FZ_WqIlhLNayzbZbmrmRP5zQw",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: "s"
 
   },
  
   {
     id: 4,
     name: "Rumba",
-    short_description: "Python library for algorithmic video composition",
+    short_description: "Python library for to generate algorithmic patterns and grids for video manipulation",
     year: "2018",
     tags: ["python","moviepy","remix"],
-    image: "",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: "vxvxvxv"
 
   },
   {
     id: 5,
-    name: "tapemd2eu",
-    short_description: "Bret",
-    year: "2018",
+    name: "tape/md2eu",
+    short_description: "EP of an improvisation with a radio recorded in several places with multiple microphones.",
+    year: "2017",
     tags: ["bandcamp","ep","field recording","noise"],
-    image: "",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: "https://berkozdemir.bandcamp.com/album/tape-md2eu"
 
   },
   {
     id: 6,
     name: "It's Safe to Just Let Go",
-    short_description: "Bret",
-    year: "2018",
+    short_description: "A track released on Spotify and other streaming platforms.",
+    year: "2017",
     tags: ["single","music","sample"],
-    image: "",
-    url: "",
+    image: "http://www.fnordware.com/superpng/pnggrad8rgb.png",
+    url: ""
 
   }]

@@ -3,7 +3,7 @@ import Card from './card.jsx'
 
 const CardList = ({ projects }) => {
     return (
-        <div className=''>
+        <div className="flex justify-center flex-wrap mt5">
         {    
             projects.map((user, i) => {
                 return (

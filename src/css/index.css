@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+.pressstart2p {
+  font-family: 'Press Start 2P', cursive;    
+}
+
+.yatra {
+  font-family: 'Yatra One', cursive;
+}
 html {
   min-height: 100%;
   margin: 0;

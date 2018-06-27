@@ -12,7 +12,7 @@ class Landing extends Component {
             <div id='gradient'>
              <P5Wrapper  sketch={sketch}/>
             <div className='pa4 ' id="sketch-holder"></div>
-                <div className='f2 tc ma4 near-black'>
+                <div className='f2 tc ma4 near-black yatra'>
                     <Typed 
                             strings={[`composer`,'producer','performer / improviser', 'multimedia artist', 'creative coder', 'ex youtuber / streamer (I will be back soon!)','huge computer nerd','internet citizen','and doer of many more things']} 
                             typeSpeed={30}

@@ -1,17 +1,32 @@
 import React from 'react';
+import { Window, TitleBar, Toolbar, SearchField, Text, SegmentedControl, SegmentedControlItem  } from 'react-desktop/macOs';
+
 
 const Card = ({name,short_description,year,tags,image,url}) => {
 
     return (
-        <a className='bg-light-green dib br3 pa3 ma2 grow' title={name} href={url}>
-            <div>
-            <img alt={name} src={image} width="200px" />
-            <div>
-                <h2 className="ml0 fw9">{name}</h2>
-                <p>{short_description}</p>
-            </div>
-            </div>
-        </a>
+        <div className="ma2 dim">
+            <a href={url} className="near-black link">
+            <Window
+                chrome
+                width="550px"
+                height="240px"
+                // background="red"
+                padding="20px"
+                >
+                <TitleBar title={name} controls/>
+                <div className="flex items-center" style={{"margin-right":"15px"}}>         
+                    <img src={image} alt={name} width="200px" height="200px" />
+                </div>
+                <div className="tl" style={{width:"295px"}}>
+                    <h3 className="m0">{name}</h3>
+                    <p className=""><b>Year:</b> {year}</p>
+                    <span>{short_description}</span>
+                    <p>{tags}</p>
+                </div>
+            </Window>
+            </a>
+        </div>
     );
 }
 
