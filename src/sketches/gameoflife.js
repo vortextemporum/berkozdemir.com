@@ -19,7 +19,7 @@ export default function sketch(p) {
     let cols;
     let rows;
     let resolution = 25;
-    let cnv;
+    // let cnv;
 
 
     p.windowResized = function() {
@@ -70,7 +70,7 @@ export default function sketch(p) {
             for (let j = 0; j < rows; j++) {
                 let state = grid[i][j];
                 // Count live neighbors!
-                let sum = 0;
+                // let sum = 0;
                 let neighbors = countNeighbors(grid, i, j);
 
                 if (state == 0 && neighbors == 3) {

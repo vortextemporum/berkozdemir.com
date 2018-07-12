@@ -1,23 +1,23 @@
 import React from 'react';
-import { TitleBar, Toolbar, SearchField } from 'react-desktop/macOs';
+// import { TitleBar, Toolbar, SearchField } from 'react-desktop/macOs';
 
 const SearchBox = ({searchfield, searchChange}) => {
     return (
         <div>
 
-        <SearchField
+        {/* <SearchField
             margin="150px,150px"
             placeholder="Search"
             defaultValue=""
             onChange={searchChange}
-          />
+          /> */}
 
-        {/* <input 
+        <input 
             type="search" 
-            placeholder='Search!'
-            className='pa3 ba b--green bg-lightest-blue'
+            placeholder='Filter by name'
+            className='code pa2 bd b--near-black bg-black-50 hover-bg-black white shadow-5 mv3'
             onChange={searchChange}
-            /> */}
+            />
         </div>
     );
 }

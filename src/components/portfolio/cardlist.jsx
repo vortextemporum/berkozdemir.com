@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './card.jsx'
 
+
 const CardList = ({ projects }) => {
     return (
-        <div className="flex justify-center flex-wrap mt5">
+        <div className="flex justify-center flex-wrap mt2">
         {    
             projects.map((user, i) => {
                 return (
@@ -11,15 +12,15 @@ const CardList = ({ projects }) => {
                         key={i} 
                         id={projects[i].id} 
                         name={projects[i].name}  
-                        short_description={projects[i].short_description}
+                        shortDescription={projects[i].shortDescription}
                         year={projects[i].year}
                         tags={projects[i].tags}
                         image={projects[i].image}
-                        url={projects[i].name}
+                        url={projects[i].url}
                         />
                 );
             })
-        };
+        }
         
         </div>
     );

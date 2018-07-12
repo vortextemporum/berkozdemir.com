@@ -9,12 +9,12 @@ import Typed from 'react-typed';
 class Landing extends Component {
     render() {
         return(
-            <div id='gradient'>
+            <div id=''>
              <P5Wrapper  sketch={sketch}/>
             <div className='pa4 ' id="sketch-holder"></div>
                 <div className='f2 tc ma4 near-black yatra'>
                     <Typed 
-                            strings={[`composer`,'producer','performer / improviser', 'multimedia artist', 'creative coder', 'ex youtuber / streamer (I will be back soon!)','huge computer nerd','internet citizen','and doer of many more things']} 
+                            strings={[`composer`,'producer','performer / improviser', 'multimedia artist', 'creative coder', 'youtuber / streamer','huge computer nerd','internet citizen','and doer of many more things']} 
                             typeSpeed={30}
                             backSpeed={30}
                             backDelay={1500}

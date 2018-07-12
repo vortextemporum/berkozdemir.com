@@ -6,10 +6,10 @@ export default function sketch(p) {
     // let canvas;
     let allRadios;
     let totalRadius = 200;
-    let numCircles = Math.round(p.random(1, 30));
-    let numRadios = Math.round(p.random(6, 50));
+    let numCircles = Math.round(p.random(1, 15));
+    let numRadios = Math.round(p.random(6, 20));
     let spinSpeed = Math.round(p.random(1, 10));
-    let fps = Math.round(p.random(1, 10));
+    let fps = Math.round(p.random(1, 4));
     // let numCircles = 5;
     // let numRadios = 5;
     // let spinSpeed = 10;

@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import Main from './components/main';
-import Footer from './components/footer'
-import Header from './components/header'
-import './components/background';
+import Footer from './components/footer';
+import Header from './components/header';
+import './css/background.css';
 
 class App extends Component {
   render() {
     return (
-      <div className=''>
-        <div id='gradient'>
-          <Header />
-          <div>
-            <Main/>
-            <Footer />
-          </div>
-          
-        </div>
+      <div id='gradient'>
+        <Header/>
+        <Main/>
+        <Footer/>
       </div>
     );
   }

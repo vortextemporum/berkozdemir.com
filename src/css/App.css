@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.pressstart2p {
+  font-family: 'VT323', monospace;
+}
+
+.yatra {
+  font-family: 'Yatra One', cursive;
+}
+
+body {
+    background-size: cover;
+}
+

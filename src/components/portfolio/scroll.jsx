@@ -1,10 +1,37 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+
 
 const Scroll = (props) => {
-    return (
-        <div className='flex flex-wrap justify-around'>
-            {props.children}
-        </div> )
+    let url = props.url;
+    let style = props.className;
+    
+    if (props.url.includes("http") === true) {
+        console.log("1")
+        return (
+            <a href={url} className={style}>
+                {props.children}
+            </a>
+        )
+    }
+    else if (url.includes("/works") === true) {
+        console.log("2")
+        return (
+            <Link to={url} className={style}>
+                {props.children}
+            </Link>
+        )
+    }
+    else {
+        console.log("3")
+        return (
+            <div className={style}>
+                {props.children}
+            </div> )
+    }
+
+    // return (<a href={url}> {props.children} </a>)
+    
 };
 
 export default Scroll;
