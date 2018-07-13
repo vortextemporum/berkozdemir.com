@@ -1,3 +1,16 @@
 #works:hover {
     animation: spin infinite 2s linear;
 }
+
+#tab1:checked + label {
+    background: #96ccff;
+}
+#tab2:checked + label {
+    background: #9eebcf;
+}
+#tab3:checked + label {
+    background: #ffa3d7;
+}
+#tab4:checked + label {
+    background: #fbf1a9;
+}

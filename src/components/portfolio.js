@@ -16,6 +16,10 @@ class Portfolio extends Component {
         }
     }
 
+    handleOptionChange = (event) => {
+        this.setState({activeTab: event.target.value});
+    }
+
     ColorWorks() {
         const randomcolor = () => '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
         let title = document.getElementById("works");
@@ -57,13 +61,31 @@ class Portfolio extends Component {
             <div className='tc'>
                 <pre id="works" className="fw-7 ">`7MMF'{"     "}A{"     "}`7MF' .g8""8q. `7MM"""Mq.{"  "}`7MMF' `YMM'{"  "}.M"""bgd {"\n"}{"  "}`MA{"     "},MA{"     "},V .dP'{"    "}`YM. MM{"   "}`MM.{"   "}MM{"   "}.M'{"   "},MI{"    "}"Y {"\n"}{"   "}VM:{"   "},VVM:{"   "},V{"  "}dM'{"      "}`MM MM{"   "},M9{"    "}MM .d"{"     "}`MMb.{"     "}{"\n"}{"    "}MM.{"  "}M' MM.{"  "}M'{"  "}MM{"        "}MM MMmmdM9{"     "}MMMMM.{"       "}`YMMNq. {"\n"}{"    "}`MM A'{"  "}`MM A'{"   "}MM.{"      "},MP MM{"  "}YM.{"     "}MM{"  "}VMA{"    "}.{"     "}`MM {"\n"}{"     "}:MM;{"    "}:MM;{"    "}`Mb.{"    "},dP' MM{"   "}`Mb.{"   "}MM{"   "}`MM.{"  "}Mb{"     "}dM {"\n"}{"      "}VF{"      "}VF{"       "}`"bmmd"' .JMML. .JMM..JMML.{"   "}MMb.P"Ybmmd"{"  "}</pre>
                 <SearchBox className="" searchChange={this.onSearchChange} />
-                <nav className="code tc mw7 center tracked">
-                    <span className="f6 f5-l bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" onClick={() => this.setState({activeTab: "all"})}>#all</span>
-                    <span className="f6 f5-l bg-animate black-80 hover-bg-light-green dib pa3 ph4-l" onClick={() => this.setState({activeTab: "audio"})}>#audio</span>
-                    <span className="f6 f5-l bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" onClick={() => this.setState({activeTab: "video"})}>#video</span>
-                    <span className="f6 f5-l bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" onClick={() => this.setState({activeTab: "software"})}>#software</span>
-                    <span className="f6 f5-l bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" onClick={() => this.setState({activeTab: "text"})}>#text</span>
-                </nav>
+                <div className="tracked code tc mw7 center">
+                    <input id="tab1" type="radio" value="all" 
+                        checked={this.state.activeTab === 'all'}
+                        onChange={this.handleOptionChange} 
+                        className="dn" />
+                    <label for="tab1" className="f6 f5-l bg-animate black-80 hover-bg-light-blue pointer:hover dib pa3 ph4-l">#all</label>
+                    <input id="tab2" type="radio" value="audio" 
+                        checked={this.state.activeTab === 'audio'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label for="tab2" className="f6 f5-l bg-animate black-80 hover-bg-light-green pointer:hover dib pa3 ph4-l">#music</label>
+                    
+                    <input id="tab3" type="radio" value="video" 
+                        checked={this.state.activeTab === 'video'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label for="tab3" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#video</label>
+                    
+                    <input id="tab4" type="radio" value="software" 
+                        checked={this.state.activeTab === 'software'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label for="tab4" className="f6 f5-l bg-animate black-80 hover-bg-light-yellow pointer:hover dib pa3 ph4-l">#software</label>
+ 
+                </div>
                
                 <CardList projects={filteredProjects}/>  
                 
