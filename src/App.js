@@ -8,7 +8,7 @@ import './css/background.css';
 class App extends Component {
   render() {
     return (
-      <div id='gradient'>
+      <div className="fullscreen" id='gradient'>
         <Header/>
         <Main/>
         <Footer/>

@@ -14,3 +14,7 @@
 #tab4:checked + label {
     background: #fbf1a9;
 }
+
+font {
+    background-color: rgba( 0, 0, 0, .1 );
+}
