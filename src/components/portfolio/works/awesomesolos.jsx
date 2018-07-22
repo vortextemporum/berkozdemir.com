@@ -6,20 +6,22 @@ export default class AwesomeSolos extends Component {
         return (
         
         <div>
-        <h1 className="tc"> &lt;awesome ... solos&gt;</h1>
+        <h1 className="tc code white"> <span className="red">&lt;</span>awesome <span className="yellow">...</span> solos<span className="red">&gt;</span></h1>
+        <div className="flex bg-black-20 br3-ns white ma2 flex-wrap items-center">
+            <p className="w-50 code pa3">
+            With the arrival of the online new-media video streaming platforms such as Youtube, anyone who enjoys playing their instrument found a new way to share their skills. Now, as viewers, we're not dependent to any analog video media or mass media such as T.V. to watch our favourite artist playing live, also we have the opportunity to share our videos with anyone on the planet, without thinking about how "professionally" we play. So now we have access to any kind of musical content.
+            </p>
+            <p className="w-50 code pa3">
             
-            
-            <p className="w-60 center code">
-            &lt;awesome ... solos&gt; is a series of video works which focuses on recontextualitation of solo instrument videos on youtube. For each video, several solo performance videos of an acoustic instrument are collected, chopped into pieces and re-arranged ito make a video composition. Then the audio output of this mashed up video is converted to Midi, and played back and recorded with stock instruments in Ableton. Finally, the "Midiized" audio track is merged with the video.
-            What drove my interest to do these videos was my curiosity on the aesthetics of solo instrument performance videos on Youtube. Since internet introduced us a lot of streaming / social media platforms in these 10 years, like many things else, the new ways of demonstrating the knowledge / skill / hard work with an instrument has increased enormously. And right now, Youtube is an ideal platform / archive for users to observe the evolution of content creator's motivations and purposes to demonstrate themselves as an instrument player, the ways they distribute their videos, the new cultures they bring, the growing variety of musical content etc.
-            The funny thing is, now we’re also able to watch what’s been done in the “pre-internet” media, such as TV shows, concert recordings, VHS exclusive educational videos etc. , because most of them re-appear on Youtube.
-            For these videos, “Midiizing” the audio streams is the key tool to unify all the collected video materials within a new narrative context and to transform each of these video slices to short skits, which become strong aural references to the viewer. Also I believe that it provides to "humorize" the content, since the process degrades the musical quality of audio content and makes it sound silly.
-            Tools used:
-            Youtube-dl (to download the youtube videos) Adobe Premiere CC (post production) Ableton Live (to midiize the audio content)
-            awesome guitar solos -> https://youtu.be/z-83z2JH67w
-            awesome piano solos -> https://youtu.be/470kaKzYqMw
+            &lt;Awesome ... Solos&gt; is a series of video works which focuses on transforming solo instrument performance videos found on Youtube to a goofy mashup in a new narrative. Several videos are collected for a spesific instrument, chopped and arranged, and the audio files are "midiized" to remove the difference of each video source and bake them in the new goofy narrative.
 
             </p>
+        </div>
+        <div className="flex flex-wrap justify-between">
+            <iframe className="ma3" width="560" height="315" src="https://www.youtube.com/embed/z-83z2JH67w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            <iframe className="ma3" width="560" height="315" src="https://www.youtube.com/embed/470kaKzYqMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
         </div>
     
     

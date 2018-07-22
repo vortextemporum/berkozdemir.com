@@ -6,16 +6,16 @@ const Scroll = (props) => {
     let url = props.url;
     let style = props.className;
     
-    if (props.url.includes("http") === true) {
-        console.log("1")
+    if (props.url.includes("https://")) {
+        // console.log("1")
         return (
             <a href={url} className={style}>
                 {props.children}
             </a>
         )
     }
-    else if (url.includes("/works") === true) {
-        console.log("2")
+    else if (url.includes("/works")) {
+        // console.log("2")
         return (
             <Link to={url} className={style}>
                 {props.children}
@@ -23,7 +23,7 @@ const Scroll = (props) => {
         )
     }
     else {
-        console.log("3")
+        // console.log("3")
         return (
             <div className={style}>
                 {props.children}

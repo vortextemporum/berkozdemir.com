@@ -9,8 +9,6 @@ const randomcolor2 = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 
 class CV extends Component {
-    
-    
     AnimateTitle() {
         let title = document.getElementById("head");
         let text = title.innerText;

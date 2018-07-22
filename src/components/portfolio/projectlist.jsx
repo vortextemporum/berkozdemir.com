@@ -1,11 +1,18 @@
 import kenny from "./thumbnails/kennyonmushrooms.jpg"
-import logo1 from "./thumbnails/glic02.png"
-import logo2 from "./thumbnails/glic03.png"
-import logo3 from "./thumbnails/glic04.png"
-import logo4 from "./thumbnails/glic05.png"
-import logo5 from "./thumbnails/glic06.png"
+import awesomeSolos from "./thumbnails/awesomesolos.gif"
+import blocks from "./thumbnails/blocks.png"
+import tape from "./thumbnails/tape.jpg"
+import manual from "./thumbnails/manual.jpg"
+import sakirt from "./thumbnails/sakirt.png"
+import cacophony from "./thumbnails/cacophony.gif"
+import silly from "./thumbnails/sillyimages.jpg"
+import randyt from "./thumbnails/randyt.png"
+import youseq from "./thumbnails/youseq.png"
+import youtubeplay from "./thumbnails/youtubeplayer.png"
 import letgo from "./thumbnails/itssafetojustletgo.jpg"
-// import logo1 from "./thumbnails/glic14.png"
+import sumeyye from "./thumbnails/sumeyye.jpg"
+import rumba from "./thumbnails/rumba.gif"
+import riset from "./thumbnails/riset.jpg"
  
  
  export const projects = [
@@ -15,7 +22,7 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "A series of videos which focus on recontexualisation of solo instrument videos in a goofy way",
     year: "2018",
     tags: ["all","video","youtube","remix"],
-    image: logo1,
+    image: awesomeSolos,
     url: "/works/awesomesolos"
   },
   {
@@ -24,8 +31,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Multimedia composition for browsers and instruments, commitioned by Hodiernal Quartet",
     year: "2017",
     tags: ["all","audio","video","composition","quartet","multimedia"],
-    image: logo2,
-    url: "/works/randomyoutubedownloader"
+    image: cacophony,
+    url: "https://youtu.be/3X8sJUHxlBE"
 
   },
 
@@ -35,8 +42,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "noise / chiptune / shitcore / popfart / philcollins duo by Berk Özdemir and Gökay Atabek presents the goofiest noise performances ever",
     year: "2017",
     tags: ["all","audio","band","noise"],
-    image: logo2,
-    url: "/works/randomyoutubedownloader"
+    image: sumeyye,
+    url: "https://www.youtube.com/channel/UCGcKKjTklJOPIzEOhQHG6sg"
 
   },
 
@@ -46,8 +53,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing",
     year: "2017",
     tags: ["all","audio","video","composition","quartet","multimedia"],
-    image: logo3,
-    url: "/works/randomyoutubedownloader"
+    image: "https://thumbs.gfycat.com/VacantWelltodoAmericanbobtail-max-1mb.gif",
+    url: ""
 
   },
   {
@@ -56,8 +63,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "A modular composition for a Flute Quartet (if you want to perform it, mail me!)",
     year: "2017",
     tags: ["all","audio","video","composition","quartet","multimedia"],
-    image: logo3,
-    url: "/works/randomyoutubedownloader"
+    image: blocks,
+    url: ""
 
   },
   {
@@ -66,8 +73,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Python library for to generate algorithmic patterns and grids for video manipulation",
     year: "2018",
     tags: ["all","software","python","moviepy","remix"],
-    image: logo3,
-    url: "/works/rumba"
+    image: rumba,
+    url: "https://github.com/vortextemporum/Rumba"
 
   },
   {
@@ -76,8 +83,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "A field recording/noise EP of an improvisation with a radio recorded in several places with multiple microphones.",
     year: "2017",
     tags: ["all","audio","bandcamp","ep","field-recording","noise"],
-    image: logo4,
-    url: "/works/tapemd2eu"
+    image: tape,
+    url: "https://berkozdemir.bandcamp.com/album/tape-md2eu"
 
   },
   {
@@ -87,7 +94,7 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     year: "2017",
     tags: ["all","single","audio","sampling"],
     image: letgo,
-    url: "https://www.ahah.ahaha"
+    url: "https://open.spotify.com/album/7GZ6r44ed5VK0rHXADhtkn"
 
   },
   {
@@ -96,8 +103,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "A video sequencer to play downloaded Youtube videos made with Max/Jitter.",
     year: "2018",
     tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
+    image: youseq,
+    url: ""
 
   },
   {
@@ -105,19 +112,9 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     name: "Random Youtube Downloader",
     shortDescription: "A Python program to search for random Youtube videos in different languages and download them.",
     year: "2018",
-    tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
-
-  },
-  {
-    id: 7,
-    name: "YouSeq",
-    shortDescription: "A video sequencer to play downloaded Youtube videos made with Max/Jitter",
-    year: "2018",
-    tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
+    tags: ["all","software","python"],
+    image: randyt,
+    url: "https://github.com/vortextemporum/random-youtube-downloader"
 
   },
   {
@@ -126,8 +123,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Composition for solo flute, performed by Cem Önertürk",
     year: "2018",
     tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
+    image: sakirt,
+    url: "https://soundcloud.com/berk-ozdemir/sakirt-2012-for-solo-flute"
 
   },
   {
@@ -136,8 +133,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "A webpage practice made while studying CSS, containing full of bullshit",
     year: "2018",
     tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
+    image: silly,
+    url: "https://vortextemporum.github.io/sillyimages/images.html"
 
   },
   {
@@ -146,8 +143,8 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Webpage made with P5.js which generates random wallpapers out of a synthesizer's manual",
     year: "2018",
     tags: ["all","max","msp","jitter","sequencer","video","software"],
-    image: logo5,
-    url: "d"
+    image: manual,
+    url: "https://vortextemporum.github.io/onepurpose/manual.html"
 
   },
   {
@@ -156,18 +153,28 @@ import letgo from "./thumbnails/itssafetojustletgo.jpg"
     shortDescription: "Video work depicting sunrise and sunset using datamoshed raw GoPro footages",
     year: "2018",
     tags: ["all","video","python","glitch","datamoshing"],
-    image: logo5,
-    url: "d"
+    image: riset,
+    url: ""
 
   },
   {
     id: 7,
     name: "Kenny on Mushrooms",
-    shortDescription: "A love affair between Kendrick Lamar and Infected Mushrooms",
+    shortDescription: "A love affair between Kendrick Lamar and Infected Mushrooms (clean version will be released with the debut album)",
     year: "2018",
     tags: ["all","video","python","glitch","datamoshing"],
     image: kenny,
-    url: "kenn"
+    url: "https://www.youtube.com/watch?v=eCPZhqwi_KU"
+
+  },
+  {
+    id: 7,
+    name: "Random Youtube Player",
+    shortDescription: "Max/MSP patch to play multiple random audio files downloaded from Youtube.",
+    year: "2018",
+    tags: ["all","max","msp"],
+    image: youtubeplay,
+    url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
 
   }
 ]
