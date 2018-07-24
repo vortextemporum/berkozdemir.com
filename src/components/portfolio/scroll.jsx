@@ -9,7 +9,7 @@ const Scroll = (props) => {
     if (props.url.includes("https://")) {
         // console.log("1")
         return (
-            <a href={url} className={style}>
+            <a href={url} target="_blank" className={style}>
                 {props.children}
             </a>
         )

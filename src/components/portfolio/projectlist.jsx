@@ -16,6 +16,7 @@ import riset from "./thumbnails/riset.jpg"
 import dew from "./thumbnails/dew.gif"
 import missingno2 from "./thumbnails/missingno2.jpg"
 import darkwebb from "./thumbnails/darkwebb.jpg"
+import website from "./thumbnails/website.jpg"
  
  
  export const projects = [
@@ -145,7 +146,7 @@ import darkwebb from "./thumbnails/darkwebb.jpg"
     name: "Silly Images",
     shortDescription: "A webpage practice made while studying CSS, containing full of bullshit",
     year: "2018",
-    tags: ["all","max","msp","jitter","sequencer","video","software"],
+    tags: ["all","software"],
     image: silly,
     url: "https://vortextemporum.github.io/sillyimages/images.html"
     
@@ -167,7 +168,7 @@ import darkwebb from "./thumbnails/darkwebb.jpg"
     year: "2018",
     tags: ["all","video","python","glitch","datamoshing"],
     image: riset,
-    url: ""
+    url: "https://www.youtube.com/watch?v=LYg6rAEowCs"
     
   },
   {
@@ -224,7 +225,7 @@ import darkwebb from "./thumbnails/darkwebb.jpg"
     shortDescription: "This website you're browsing was my first project with React.js.",
     year: "2018",
     tags: ["all","software"],
-    image: youtubeplay,
+    image: website,
     url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
   },
   {
