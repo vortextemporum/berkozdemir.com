@@ -153,8 +153,8 @@ import website from "./thumbnails/website.jpg"
   },
   {
     id: 7,
-    name: "Manual",
-    shortDescription: "Webpage made with P5.js which generates random wallpapers out of a synthesizer's manual",
+    name: "Yamaha rm1x wallpaper generator",
+    shortDescription: "Webpage made with P5.js which generates random wallpapers. Left click to generate a new one, 'a' to save as image.",
     year: "2018",
     tags: ["all","software"],
     image: manual,
