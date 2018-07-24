@@ -63,7 +63,7 @@ class CV extends Component {
 
     componentWillUnmount() {
     clearInterval(this.interval);
-    clearInterval(this.innterval);
+    clearInterval(this.innterval);    
     
     }
 

@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import CardList from './portfolio/cardlist';
 import SearchBox from './portfolio/searchBox.jsx'
-import {projects} from './portfolio/projectlist'
-// import Scroll from './portfolio/scroll.jsx'
-// import { Window, TitleBar, Toolbar, SearchField, Text, SegmentedControl, SegmentedControlItem  } from 'react-desktop/macOs';
-import "../css/works.css"
+import {projects} from './portfolio/projectlist.jsx'
+import "../css/portfolio.css"
 
 class Portfolio extends Component {
     constructor() {
@@ -20,7 +18,7 @@ class Portfolio extends Component {
         this.setState({activeTab: event.target.value});
     }
 
-    ColorWorks() {
+    ColorizeTitle() {
         const randomcolor = () => '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
         let title = document.getElementById("works");
         let text = title.innerText;
@@ -44,7 +42,7 @@ class Portfolio extends Component {
 
 
     componentDidMount() {
-        this.ColorWorks();
+        this.ColorizeTitle();
     }
 
     onSearchChange = (event) => {

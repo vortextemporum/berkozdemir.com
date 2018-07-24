@@ -5,13 +5,6 @@ const SearchBox = ({searchfield, searchChange}) => {
     return (
         <div>
 
-        {/* <SearchField
-            margin="150px,150px"
-            placeholder="Search"
-            defaultValue=""
-            onChange={searchChange}
-          /> */}
-
         <input 
             type="search" 
             placeholder='Filter by name'

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Window, TitleBar} from 'react-desktop/macOs';
+import {Window, TitleBar} from 'react-desktop/macOs';
 import P5Wrapper from "react-p5-wrapper";
 import sketch from "../sketches/spinRadios";
 import '../css/about.css';
@@ -69,20 +69,10 @@ export default class About extends Component {
 
                             <p>Right now I’m doing my Masters degree at ArtScience Interfaculty at Royal Conservatory / Art Academy of the Hague. My focus on the research subject is internet literacy, remix culture, and finding new ways to use browsers and media in internet as an instrument, and audiovisual composition material.</p>
 
-                            <p>I'm also actively producing groove oriented music. I wouldn't limit my tracks towards a single spesific musical genre/style, but I love sampling media content (such as videos, music etc.) as a fuel to find new musical ideas and to create new musical phrases and compositions out of it. Right now, I'm working on my debut album which will consist of beats I produced in this year, and I'm hoping hoping to release it in this year.</p>
+                            <p>I'm also actively producing groove oriented music. I wouldn't limit my tracks towards a single spesific musical genre/style, but I love sampling media content (such as videos, music etc.) as a fuel to find new musical ideas and to create new musical phrases and compositions out of it. Right now, I'm working on my debut album which will consist of beats I produced in this year, and I'm hoping to release it in this year.</p>
                         
                         </div>
                     </Window>
-
-                {/* <Window className='ma3'
-                chrome
-                height="100%"
-                width="50%"
-                padding="5%"
-                
-            >
-
-            </Window> */}
             </div>
         </div>
         )

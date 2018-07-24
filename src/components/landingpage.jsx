@@ -14,7 +14,7 @@ class Landing extends Component {
             <div className='pa4 ' id="sketch-holder"></div>
                 <div className='f2 tc ma4 near-black yatra'>
                     <Typed 
-                            strings={[`composer`,'producer','performer / improviser', 'multimedia artist', 'creative coder', 'youtuber / streamer','huge computer nerd','internet citizen','and doer of many more things']} 
+                            strings={[`composer`,'music producer','performer / improviser', 'multimedia artist', 'creative coder', 'very lazy youtuber / streamer', 'and doer of many more things']} 
                             typeSpeed={30}
                             backSpeed={30}
                             backDelay={1500}

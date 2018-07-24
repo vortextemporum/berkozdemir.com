@@ -6,9 +6,15 @@ import Header from './components/header.jsx';
 import './css/background.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+        id: "gradient"
+    }
+  }
   render() {
     return (
-      <div className="fullscreen" id='gradient'>
+      <div className="fullscreen" id={this.state.id}>
         <Header/>
         <Main/>
         <Footer/>

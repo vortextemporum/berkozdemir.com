@@ -18,9 +18,9 @@ export default class AwesomeSolos extends Component {
             </p>
         </div>
         <div className="flex flex-wrap justify-between">
-            <iframe className="ma3" width="560" height="315" src="https://www.youtube.com/embed/z-83z2JH67w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe title="guitar" className="ma3" width="560" height="315" src="https://www.youtube.com/embed/z-83z2JH67w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-            <iframe className="ma3" width="560" height="315" src="https://www.youtube.com/embed/470kaKzYqMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe title="piano" className="ma3" width="560" height="315" src="https://www.youtube.com/embed/470kaKzYqMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         </div>
     
