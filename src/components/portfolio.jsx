@@ -69,24 +69,24 @@ class Portfolio extends Component {
                         checked={this.state.activeTab === 'all'}
                         onChange={this.handleOptionChange} 
                         className="dn" />
-                    <label for="tab1" className="f6 f5-l bg-animate black-80 hover-bg-light-blue pointer:hover dib pa3 ph4-l">#all</label>
+                    <label htmlFor="tab1" className="f6 f5-l bg-animate black-80 hover-bg-light-blue pointer:hover dib pa3 ph4-l">#all</label>
                     <input id="tab2" type="radio" value="audio" 
                         checked={this.state.activeTab === 'audio'}
                         onChange={this.handleOptionChange}
                         className="dn" />
-                    <label for="tab2" className="f6 f5-l bg-animate black-80 hover-bg-light-green pointer:hover dib pa3 ph4-l">#music</label>
+                    <label htmlFor="tab2" className="f6 f5-l bg-animate black-80 hover-bg-light-green pointer:hover dib pa3 ph4-l">#music</label>
                     
                     <input id="tab3" type="radio" value="video" 
                         checked={this.state.activeTab === 'video'}
                         onChange={this.handleOptionChange}
                         className="dn" />
-                    <label for="tab3" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#video</label>
+                    <label htmlFor="tab3" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#video</label>
                     
                     <input id="tab4" type="radio" value="software" 
                         checked={this.state.activeTab === 'software'}
                         onChange={this.handleOptionChange}
                         className="dn" />
-                    <label for="tab4" className="f6 f5-l bg-animate black-80 hover-bg-light-yellow pointer:hover dib pa3 ph4-l">#software</label>
+                    <label htmlFor="tab4" className="f6 f5-l bg-animate black-80 hover-bg-light-yellow pointer:hover dib pa3 ph4-l">#software</label>
  
                 </div>
                

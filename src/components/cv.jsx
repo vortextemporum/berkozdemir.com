@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../css/cv.css'
-// import P5Wrapper from "react-p5-wrapper";
-// import sketch from "../sketches/gameoflife";
+import P5Wrapper from "react-p5-wrapper";
+import sketch from "../sketches/gameoflife";
 
 const colorArray = ["#f8f8f2", "#a8a8a2", "#ae81ff", "#a6e22e", "#f92672", "#66d9ef", "#f8f8f2", "#e6db74", "#75715e"];
 const randomcolor = () => '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
@@ -69,9 +69,8 @@ class CV extends Component {
 
     render() {
         return(
-                <div className='cv'>
-                {/* <P5Wrapper 
-                sketch={sketch}/> */}
+                <div className='cv f6'>
+                <P5Wrapper sketch={sketch}/>
                 <header className='cvheader'>
                     <pre id="head">#########################################################################################################################################{"\n"}##{"  "}.o88b. db{"    "}db d8888b. d8888b. d888888b{"  "}.o88b. db{"    "}db db{"      "}db{"    "}db .88b{"  "}d88.{"   "}db{"    "}db d888888b d888888b{"  "}.d8b.{"  "}d88888b ##{"\n"}## d8P{"  "}Y8 88{"    "}88 88{"  "}`8D 88{"  "}`8D{"   "}`88'{"   "}d8P{"  "}Y8 88{"    "}88 88{"      "}88{"    "}88 88'YbdP`88{"   "}88{"    "}88{"   "}`88'{"   "}`~~88~~' d8' `8b 88'{"     "}##{"\n"}## 8P{"      "}88{"    "}88 88oobY' 88oobY'{"    "}88{"    "}8P{"      "}88{"    "}88 88{"      "}88{"    "}88 88{"  "}88{"  "}88{"   "}Y8{"    "}8P{"    "}88{"       "}88{"    "}88ooo88 88ooooo ##{"\n"}## 8b{"      "}88{"    "}88 88`8b{"   "}88`8b{"      "}88{"    "}8b{"      "}88{"    "}88 88{"      "}88{"    "}88 88{"  "}88{"  "}88{"   "}`8b{"  "}d8'{"    "}88{"       "}88{"    "}88~~~88 88~~~~~ ##{"\n"}## Y8b{"  "}d8 88b{"  "}d88 88 `88. 88 `88.{"   "}.88.{"   "}Y8b{"  "}d8 88b{"  "}d88 88booo. 88b{"  "}d88 88{"  "}88{"  "}88{"    "}`8bd8'{"    "}.88.{"      "}88{"    "}88{"   "}88 88.{"     "}##{"\n"}##{"  "}`Y88P' ~Y8888P' 88{"   "}YD 88{"   "}YD Y888888P{"  "}`Y88P' ~Y8888P' Y88888P ~Y8888P' YP{"  "}YP{"  "}YP{"      "}YP{"    "}Y888888P{"    "}YP{"    "}YP{"   "}YP Y88888P ##{"\n"}#########################################################################################################################################</pre>
                 </header>

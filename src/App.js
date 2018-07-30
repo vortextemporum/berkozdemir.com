@@ -9,10 +9,23 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-        id: "gradient"
-    }
+        id: "gradient",
+        loc: "/",
+    };
+    // console.log("constructor",window.location.pathname)
   }
+
   render() {
+
+    // console.log("Apprender", window.location.pathname);
+    this.state.loc = window.location.pathname;
+    console.log("state", this.state.loc);
+    if (this.state.loc === "/cv") {
+      this.state.id = ""
+    } else {
+      this.state.id = "gradient"
+    }
+    
     return (
       <div className="fullscreen" id={this.state.id}>
         <Header/>
@@ -22,4 +35,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;

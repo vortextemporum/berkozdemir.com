@@ -1,5 +1,6 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React, {Component} from 'react';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import Landing from './landingpage.jsx';
 import About from './about.jsx';
@@ -12,18 +13,30 @@ import AwesomeSolos from './portfolio/works/awesomesolos.jsx';
 import CacoPhony from './portfolio/works/cacophony.jsx'
 
 
-const Main = () => (
-    <Switch>
-        <Route exact path='/' component={Landing} />
-        <Route path='/about' component={About} />
-        <Route exact path='/works' component={Portfolio} />
-        <Route path='/contact' component={Contact} />  
-        <Route path='/cv' component={CV} /> 
-        <Route path='/news' component={News} />       
+class Main extends Component {
+    static propTypes = {
+        location: PropTypes.object.isRequired
+      }
+      
+    render = () => {
+        const {location} = this.props
+        console.log("RouterPage", location.pathname)
+        return (
+            <Switch>
+            <Route exact path='/' component={Landing} />
+            <Route path='/about' component={About} />
+            <Route exact path='/works' component={Portfolio} />
+            <Route path='/contact' component={Contact} />  
+            <Route path='/cv' component={CV} /> 
+            <Route path='/news' component={News} />       
+    
+            <Route path='/works/awesomesolos' component={AwesomeSolos} />
+            <Route path='/works/cacophony' component={CacoPhony} />     
+            </Switch>
+        )
+    }
+}
+// const ShowLocation = withRouter(Main);
 
-        <Route path='/works/awesomesolos' component={AwesomeSolos} />
-        <Route path='/works/cacophony' component={CacoPhony} />     
-    </Switch>
-)
+export default withRouter(Main);
 
-export default Main;

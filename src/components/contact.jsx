@@ -25,7 +25,7 @@ class Contact extends Component {
                             <a href="mailto:berk.ozd@gmail.com" className="blink ms-word-art">Send a mail to berk.ozd@gmail.com</a>
                         </div>
                     </div>
-                    <img src={animatedGif} className="ma4"/>
+                    <img src={animatedGif} alt="I have a beautiful gif here" className="ma4"/>
                 </div>
             </div>
         )

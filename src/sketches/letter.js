@@ -108,8 +108,8 @@ export default function sketch(p) {
             }
         }
     }
-    var kat = Math.random() * 7;
-    console.log(kat);
+    var kat = p.random(1,7);
+    // console.log(kat);
     p.setup = function() {
         p.noCanvas();
         
