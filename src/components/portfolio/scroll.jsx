@@ -14,7 +14,7 @@ const Scroll = (props) => {
             </a>
         )
     }
-    else if (url.includes("/works")) {
+    else if (url.includes("/")) {
         // console.log("2")
         return (
             <Link to={url} className={style}>

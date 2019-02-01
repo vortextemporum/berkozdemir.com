@@ -5,12 +5,17 @@ import PropTypes from 'prop-types';
 import Landing from './landingpage.jsx';
 import About from './about.jsx';
 import Contact from './contact.jsx';
-import Portfolio from './portfolio.jsx'
-import CV from './cv.jsx'
-import News from './news.jsx'
+import Portfolio from './portfolio.jsx';
+import CV from './cv.jsx';
+import News from './news.jsx';
+import PIYScores from './piyscores.jsx';
+import Listen from './listen.jsx';
 
+import PPPB from './portfolio/works/pppb.jsx';
 import AwesomeSolos from './portfolio/works/awesomesolos.jsx';
-import CacoPhony from './portfolio/works/cacophony.jsx'
+import CacoPhony from './portfolio/works/cacophony.jsx';
+import AvoidTheFeedback from './portfolio/works/avoidthefeedback.jsx';
+
 
 
 class Main extends Component {
@@ -29,9 +34,13 @@ class Main extends Component {
             <Route path='/contact' component={Contact} />  
             <Route path='/cv' component={CV} /> 
             <Route path='/news' component={News} />       
+            <Route path='/piyscores' component={PIYScores} />       
+            <Route path='/pppb' component={PPPB} />       
+            <Route path='/listen' component={Listen} />       
     
-            <Route path='/works/awesomesolos' component={AwesomeSolos} />
-            <Route path='/works/cacophony' component={CacoPhony} />     
+            <Route path='/things/awesomesolos' component={AwesomeSolos} />
+            <Route path='/things/avoidthefeedback' component={AvoidTheFeedback} />
+            <Route path='/things/cacophony' component={CacoPhony} />     
             </Switch>
         )
     }

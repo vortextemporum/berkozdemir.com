@@ -14,7 +14,9 @@ class Header extends Component {
                 <Link id="headerlink" className="link dim blue dib mr3"  to="/" title="Home">Home</Link> 
                 <Link id="headerlink" className="link dim red dib mr3"  to="/about" title="About">About</Link>
                 <Link id="headerlink" className="link dim light-purple dib mr3"  to="/news" title="News">News</Link>
-                <Link id="headerlink" className="link dim orange dib mr3"  to="/works" title="Works">Works</Link>
+                <Link id="headerlink" className="link dim light-blue dib mr3"  to="/listen" title="News">Listen</Link>
+                <Link id="headerlink" className="link dim white dib mr3"  to="/piyscores" title="PIYScores">P.I.Y. Scores</Link>
+                <Link id="headerlink" className="link dim orange dib mr3"  to="/works" title="Works">Things I Did</Link>
                 <Link id="headerlink" className="link dim yellow dib mr3"  to="/contact" title="Contact">Contact</Link>
                 <Link id="headerlink" className="link dim green dib mr3"  to="/cv" title="CV">Resume</Link>
             </nav>

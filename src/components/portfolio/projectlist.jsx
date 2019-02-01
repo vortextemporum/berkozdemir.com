@@ -17,17 +17,37 @@ import dew from "./thumbnails/dew.gif"
 import missingno2 from "./thumbnails/missingno2.jpg"
 import darkwebb from "./thumbnails/darkwebb.jpg"
 import website from "./thumbnails/website.jpg"
+import pcamel from "./thumbnails/pcamel.jpg"
+import pppb from "./thumbnails/pppb.gif"
  
  
  export const projects = [
   {
     id: 1,
+    name: "Princess Camel - Louu Louuu Hotline Miami XIII Mashup",
+    shortDescription: "As it says in the music title, it's a sweet hip-hop mashup",
+    year: "2019",
+    tags: ["all","audio","remix"],
+    image: pcamel,
+    url: "https://soundcloud.com/berk-ozdemir/louu-louu-hotline-miami-xiii-mashup"
+  },
+  {
+    id: 1,
+    name: "Pseudo Player Performer Bot(s)",
+    shortDescription: "Audiovisual composition and performance tool made in Garry's Mod",
+    year: "2018",
+    tags: ["all","software","Max","Garry's Mod"],
+    image: pppb,
+    url: "/pppb"
+  },
+  {
+    id: 1,
     name: "<Awesome ... Solos>",
-    shortDescription: "A series of videos which focus on recontexualisation of solo instrument videos in a goofy way",
+    shortDescription: "A series of videos which focus on recontexualisation of solo instrument videos",
     year: "2018",
     tags: ["all","video","youtube","remix"],
     image: awesomeSolos,
-    url: "/works/awesomesolos"
+    url: "/things/awesomesolos"
   },
   {
     id: 3,
@@ -36,14 +56,14 @@ import website from "./thumbnails/website.jpg"
     year: "2017",
     tags: ["all","audio","video","composition","quartet","multimedia"],
     image: cacophony,
-    url: "/works/cacophony"
+    url: "/things/cacophony"
 
   },
 
   {
     id: 3,
     name: "Sümeyye's Leftovers",
-    shortDescription: "noise / chiptune / shitcore / popfart / philcollins duo by Berk Özdemir and Gökay Atabek presents the goofiest noise performances ever",
+    shortDescription: "noise / chiptune / shitcore / popfart / philcollins duo by Berk Özdemir and Gökay Atabek presents stupid noise",
     year: "2017",
     tags: ["all","audio","band","noise"],
     image: sumeyye,
@@ -119,6 +139,16 @@ import website from "./thumbnails/website.jpg"
     tags: ["all","max","msp","jitter","sequencer","software"],
     image: youseq,
     url: ""
+    
+  },
+  {
+    id: 7,
+    name: "Avoid the Feedback!",
+    shortDescription: "Kind of a non-interactive game, made in Scratch",
+    year: "2017",
+    tags: ["all","game","feedback","software","audio"],
+    image: youseq,
+    url: "/things/avoidthefeedback"
     
   },
   {
