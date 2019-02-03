@@ -70,6 +70,7 @@ class Portfolio extends Component {
                         onChange={this.handleOptionChange} 
                         className="dn" />
                     <label htmlFor="tab1" className="f6 f5-l bg-animate black-80 hover-bg-light-blue pointer:hover dib pa3 ph4-l">#all</label>
+                    
                     <input id="tab2" type="radio" value="audio" 
                         checked={this.state.activeTab === 'audio'}
                         onChange={this.handleOptionChange}
@@ -86,7 +87,31 @@ class Portfolio extends Component {
                         checked={this.state.activeTab === 'software'}
                         onChange={this.handleOptionChange}
                         className="dn" />
-                    <label htmlFor="tab4" className="f6 f5-l bg-animate black-80 hover-bg-light-yellow pointer:hover dib pa3 ph4-l">#software</label>
+                    <label htmlFor="tab4" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#video</label>
+                    
+                    <input id="tab5" type="radio" value="python" 
+                        checked={this.state.activeTab === 'python'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label htmlFor="tab5" className="f6 f5-l bg-animate black-80 hover-bg-light-yellow pointer:hover dib pa3 ph4-l">#python</label>
+                    
+                    <input id="tab6" type="radio" value="max" 
+                        checked={this.state.activeTab === 'max'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label htmlFor="tab6" className="f6 f5-l bg-animate black-80 hover-bg-light-red pointer:hover dib pa3 ph4-l">#max/msp/jitter</label>
+                    
+                    <input id="tab7" type="radio" value="gmod" 
+                        checked={this.state.activeTab === 'gmod'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label htmlFor="tab7" className="f6 f5-l bg-animate black-80 hover-bg-light-purple pointer:hover dib pa3 ph4-l">#garrysmod</label>
+                    
+                    <input id="tab8" type="radio" value="webart" 
+                        checked={this.state.activeTab === 'webart'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label htmlFor="tab8" className="f6 f5-l bg-animate black-80 hover-bg-light-blue pointer:hover dib pa3 ph4-l">#webart</label>
  
                 </div>
                

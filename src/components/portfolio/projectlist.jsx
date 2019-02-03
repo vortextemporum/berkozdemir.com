@@ -19,6 +19,7 @@ import darkwebb from "./thumbnails/darkwebb.jpg"
 import website from "./thumbnails/website.jpg"
 import pcamel from "./thumbnails/pcamel.jpg"
 import pppb from "./thumbnails/pppb.gif"
+import avoid from "./thumbnails/avoid.png"
  
  
  export const projects = [
@@ -36,7 +37,7 @@ import pppb from "./thumbnails/pppb.gif"
     name: "Pseudo Player Performer Bot(s)",
     shortDescription: "Audiovisual composition and performance tool made in Garry's Mod",
     year: "2018",
-    tags: ["all","software","Max","Garry's Mod"],
+    tags: ["all","software","max","gmod"],
     image: pppb,
     url: "/pppb"
   },
@@ -59,7 +60,6 @@ import pppb from "./thumbnails/pppb.gif"
     url: "/things/cacophony"
 
   },
-
   {
     id: 3,
     name: "Sümeyye's Leftovers",
@@ -70,17 +70,17 @@ import pppb from "./thumbnails/pppb.gif"
     url: "https://www.youtube.com/channel/UCGcKKjTklJOPIzEOhQHG6sg"
 
   },
-
   {
     id: 3,
     name: "Live visual setup #01",
     shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing",
     year: "2017",
-    tags: ["all","audiovisual","software"],
+    tags: ["all","audiovisual","max"],
     image: "https://thumbs.gfycat.com/VacantWelltodoAmericanbobtail-max-1mb.gif",
     url: ""
 
   },
+
   {
     id: 3,
     name: "dew",
@@ -136,7 +136,7 @@ import pppb from "./thumbnails/pppb.gif"
     name: "YouSeq",
     shortDescription: "A video sequencer to play downloaded Youtube videos made with Max/Jitter.",
     year: "2018",
-    tags: ["all","max","msp","jitter","sequencer","software"],
+    tags: ["all","max","sequencer"],
     image: youseq,
     url: ""
     
@@ -147,7 +147,7 @@ import pppb from "./thumbnails/pppb.gif"
     shortDescription: "Kind of a non-interactive game, made in Scratch",
     year: "2017",
     tags: ["all","game","feedback","software","audio"],
-    image: youseq,
+    image: avoid,
     url: "/things/avoidthefeedback"
     
   },
@@ -176,7 +176,7 @@ import pppb from "./thumbnails/pppb.gif"
     name: "Silly Images",
     shortDescription: "A webpage practice made while studying CSS, containing full of bullshit",
     year: "2018",
-    tags: ["all","software"],
+    tags: ["all","software","webart"],
     image: silly,
     url: "https://vortextemporum.github.io/sillyimages/images.html"
     
@@ -186,7 +186,7 @@ import pppb from "./thumbnails/pppb.gif"
     name: "Yamaha rm1x wallpaper generator",
     shortDescription: "Webpage made with P5.js which generates random wallpapers. Left click to generate a new one, 'a' to save as image.",
     year: "2018",
-    tags: ["all","software"],
+    tags: ["all","software","webart"],
     image: manual,
     url: "https://vortextemporum.github.io/onepurpose/manual.html"
     
@@ -228,7 +228,7 @@ import pppb from "./thumbnails/pppb.gif"
     year: "2018",
     tags: ["all","audio","composition"],
     image: missingno2,
-    url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
+    url: "https://soundcloud.com/berk-ozdemir/missing-no-2-for-alto-flute"
     
   },
   {
@@ -254,7 +254,7 @@ import pppb from "./thumbnails/pppb.gif"
     name: "berkozdemir.com",
     shortDescription: "This website you're browsing was my first project with React.js.",
     year: "2018",
-    tags: ["all","software"],
+    tags: ["all","web"],
     image: website,
     url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
   },

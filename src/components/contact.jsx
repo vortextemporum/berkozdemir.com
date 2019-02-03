@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../css/contact.css'
-import animatedGif from "./images/halele.gif"
+import '../css/contact.css';
+import animatedGif from "./images/halele.gif";
 class Contact extends Component {
     render() {
         return(
