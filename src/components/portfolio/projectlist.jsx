@@ -35,7 +35,7 @@ import avoid from "./thumbnails/avoid.png"
   {
     id: 1,
     name: "Pseudo Player Performer Bot(s)",
-    shortDescription: "Audiovisual composition and performance tool made in Garry's Mod",
+    shortDescription: "Audiovisual composition and performance tool made in Garry's Mod and Max",
     year: "2018",
     tags: ["all","software","max","gmod"],
     image: pppb,

@@ -26,6 +26,16 @@
   font-family: 'Yatra One', cursive;
 }
 
+.neon-blue { color: #4e4bec; }
+.bg-neon-blue { background-color: #4e4bec; }
+.b--neon-blue { border-color: #4e4bec; }
+
+.neon-green { color: #74ee15; }
+.bg-neon-green { background-color: #74ee15; }
+.b--neon-green { border-color: #74ee15; }
+
+
+
 body {
     background-size: cover;
 }

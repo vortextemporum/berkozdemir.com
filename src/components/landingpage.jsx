@@ -12,14 +12,14 @@ class Landing extends Component {
             <div id=''>
              <P5Wrapper  sketch={sketch}/>
             <div className='pa4 ' id="sketch-holder"></div>
-                <div className='f2 tc ma4 near-black yatra'>
+                <div className='f2 tc ma4 near-black scode fw6 '>
                     <Typed 
-                            strings={[`composer`,'music producer','performer / improviser', 'multimedia artist', 'creative coder', 'very lazy youtuber / streamer', 'and doer of many more things']} 
-                            typeSpeed={30}
-                            backSpeed={30}
-                            backDelay={1500}
+                            strings={['re','re(re','re(re(re','re(re(re(re','re(re(re(re(re','re(re(re(re(re(re','re(re(re(re(re(re(re','re(re(re(re(re(re(re[[[mix]]]','re(re(re(re(re(re(re[[[mix]]])))))))'
+                            ,'BERKberkBERKberkBERKberk','I kind of feel like', 'you', 'will', 'enjoy', 'this','website']} 
+                            typeSpeed={10}
+                            backSpeed={10}
+                            backDelay={100}
                             loop={true}
-                            
                             
                         />
                 </div>

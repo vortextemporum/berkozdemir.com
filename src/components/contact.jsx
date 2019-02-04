@@ -18,8 +18,9 @@ class Contact extends Component {
                                 <li className="purple mv2">Do live visuals for your performances</li>
                             </ul>
 
-                            <p className="ml3">or...</p>
-                            <p className="ml3">If you want to book a concert / performance, or have a different job / project offer</p>
+                            <p className="ml3">or if you are thinking about...</p>
+                            <p>performing my pieces, exhibit and/or publish my works</p>
+                            <p className="ml3">book a concert / performance, or have a different job / project offer</p>
                         </div>
                         <div id="contact" className="tc f2 pa3">
                             <a href="mailto:berk.ozd@gmail.com" className="blink ms-word-art">Send a mail to berk.ozd@gmail.com</a>
