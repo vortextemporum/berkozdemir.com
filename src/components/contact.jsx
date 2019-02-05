@@ -10,17 +10,23 @@ class Contact extends Component {
                     <div className="bg-white-60 br4-ns mh3">
                         <div className="pressstart2p w-80 dib f3 pa2    ">
                             <ul className="center">
-                                If you need someone to:<br/>
-                                <li className="pink mv2">Compose / produce music</li>
+                                <strong>If you need someone to:</strong><br/>
+                                <li className="pink mv2">Compose / produce music, multimedia works</li>
                                 <li className="green mv2">Remix / arrange your track(s)</li>
                                 <li className="orange mv2">Make sound design / music for your films, videogames, videos etc.</li>
                                 <li className="blue mv2">Do some coding for art projects</li>
                                 <li className="purple mv2">Do live visuals for your performances</li>
                             </ul>
 
-                            <p className="ml3">or if you are thinking about...</p>
-                            <p>performing my pieces, exhibit and/or publish my works</p>
-                            <p className="ml3">book a concert / performance, or have a different job / project offer</p>
+                            <ul className="center">
+                                <strong>or if you want to...</strong><br/>
+                                <li className="mv2">perform my pieces, exhibit and/or publish my works</li>
+                                <li className="mv2">book a concert / performance, commition a piece, or have a different job / project offer</li>
+                            </ul>
+                            <ul className="center">
+                                <strong>or..... (again)</strong><br/>
+                                <li className=" mv2">If you have any questions about my works</li>
+                            </ul>
                         </div>
                         <div id="contact" className="tc f2 pa3">
                             <a href="mailto:berk.ozd@gmail.com" className="blink ms-word-art">Send a mail to berk.ozd@gmail.com</a>

@@ -37,7 +37,7 @@ import avoid from "./thumbnails/avoid.png"
     name: "Pseudo Player Performer Bot(s)",
     shortDescription: "Audiovisual composition and performance tool made in Garry's Mod and Max",
     year: "2018",
-    tags: ["all","software","max","gmod"],
+    tags: ["all","software","max","gmod","game"],
     image: pppb,
     url: "/pppb"
   },
@@ -63,7 +63,7 @@ import avoid from "./thumbnails/avoid.png"
   {
     id: 3,
     name: "Sümeyye's Leftovers",
-    shortDescription: "noise / chiptune / shitcore / popfart / philcollins duo by Berk Özdemir and Gökay Atabek presents stupid noise",
+    shortDescription: "noise / chiptune / shitcore / popfart / philcollins duo by Berk Özdemir and Gökay Atabek",
     year: "2017",
     tags: ["all","audio","band","noise"],
     image: sumeyye,
@@ -72,12 +72,12 @@ import avoid from "./thumbnails/avoid.png"
   },
   {
     id: 3,
-    name: "Live visual setup #01",
-    shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing",
+    name: "Live visuals",
+    shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing. Link goes to a test video.",
     year: "2017",
     tags: ["all","audiovisual","max"],
     image: "https://thumbs.gfycat.com/VacantWelltodoAmericanbobtail-max-1mb.gif",
-    url: ""
+    url: "https://www.youtube.com/watch?v=X2l8r2n_MI4"
 
   },
 
@@ -136,9 +136,9 @@ import avoid from "./thumbnails/avoid.png"
     name: "YouSeq",
     shortDescription: "A video sequencer to play downloaded Youtube videos made with Max/Jitter.",
     year: "2018",
-    tags: ["all","max","sequencer"],
+    tags: ["all","max","sequencer","sampling","video"],
     image: youseq,
-    url: ""
+    url: "https://www.youtube.com/playlist?list=PLL-JW4H9We1xUYeK3TlqLzCrHZuvJ73MU"
     
   },
   {
@@ -156,7 +156,7 @@ import avoid from "./thumbnails/avoid.png"
     name: "Random Youtube Downloader",
     shortDescription: "A Python program to search for random Youtube videos in different languages and download them.",
     year: "2018",
-    tags: ["all","software","python"],
+    tags: ["all","software","python","sampling"],
     image: randyt,
     url: "https://github.com/vortextemporum/random-youtube-downloader"
     
@@ -206,7 +206,7 @@ import avoid from "./thumbnails/avoid.png"
     name: "Kenny on Mushrooms",
     shortDescription: "A love affair between Kendrick Lamar and Infected Mushrooms (clean version will be released with the debut album)",
     year: "2018",
-    tags: ["all","audio,","lo-fi"],
+    tags: ["all","audio,","lo-fi","sampling"],
     image: kenny,
     url: "https://www.youtube.com/watch?v=eCPZhqwi_KU"
     
@@ -216,7 +216,7 @@ import avoid from "./thumbnails/avoid.png"
     name: "Random Youtube Player",
     shortDescription: "Max/MSP patch to play multiple random audio files downloaded from Youtube.",
     year: "2018",
-    tags: ["all","max","msp","software"],
+    tags: ["all","max","msp","software","sampling"],
     image: youtubeplay,
     url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
     
@@ -236,7 +236,7 @@ import avoid from "./thumbnails/avoid.png"
     name: "a new erotavarimania",
     shortDescription: "Plunderphonia of Dream Theater's Erotomatia + Octavarium and Moderat's A New Error",
     year: "2017",
-    tags: ["all","audio"],
+    tags: ["all","audio","sampling"],
     image: "https://i1.sndcdn.com/artworks-000257311358-edc6yo-t500x500.jpg",
     url: "https://soundcloud.com/berk-ozdemir/amazing-labrie-loop"
   },
@@ -252,20 +252,20 @@ import avoid from "./thumbnails/avoid.png"
   {
     id: 7,
     name: "berkozdemir.com",
-    shortDescription: "This website you're browsing was my first project with React.js.",
+    shortDescription: "This website you're browsing was my first project with React.js. (Includes p5 sketches)",
     year: "2018",
-    tags: ["all","web"],
+    tags: ["all","webart"],
     image: website,
-    url: "https://soundcloud.com/berk-ozdemir/youtubesequencerfirst"
+    url: "https://berkozdemir.com"
   },
   {
     id: 3,
     name: "BLOCKS",
-    shortDescription: "A modular composition for a Flute Quartet (if you want to perform it, mail me!)",
+    shortDescription: "A modular composition for a Flute Quartet where performers prepare their own scores",
     year: "2017",
     tags: ["all","audio","composition"],
     image: blocks,
-    url: ""
+    url: "https://www.dropbox.com/s/rqqeu4ebev5jk8i/Blocks%20Final.pdf"
 
   }
 ]

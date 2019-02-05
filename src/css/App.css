@@ -8,9 +8,7 @@
 
 .zcool {
   font-family: 'ZCOOL KuaiLe', cursive;
-
 }
-
 .nunito {
   font-family: 'Nunito', sans-serif;
 }
@@ -18,6 +16,7 @@
 .scode {
   font-family: 'Source Code Pro', monospace;
 }
+
 .pressstart2p {
   font-family: monospace;
 }
@@ -29,6 +28,7 @@
 .neon-blue { color: #4e4bec; }
 .bg-neon-blue { background-color: #4e4bec; }
 .b--neon-blue { border-color: #4e4bec; }
+.hover-neon-blue:hover { color: #4e4bec; }
 
 .neon-green { color: #74ee15; }
 .bg-neon-green { background-color: #74ee15; }

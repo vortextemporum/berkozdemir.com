@@ -14,6 +14,21 @@
 #tab4:checked + label {
     background: #fbf1a9;
 }
+#tab5:checked + label {
+    background: #ff725c;
+}
+#tab6:checked + label {
+    background: #a463f2;
+}
+#tab7:checked + label {
+    background: #96ccff;
+}
+#tab8:checked + label {
+    background: #9eebcf;
+}
+#tab9:checked + label {
+    background: #ffa3d7;
+}
 
 font {
     background-color: rgba( 0, 0, 0, .1 );
