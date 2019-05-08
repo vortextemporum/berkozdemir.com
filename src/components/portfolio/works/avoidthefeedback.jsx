@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class AvoidTheFeedback extends Component {
+export default class AlgoCuts extends Component {
     render() {
         
         return (

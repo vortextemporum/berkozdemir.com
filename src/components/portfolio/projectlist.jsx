@@ -20,17 +20,46 @@ import website from "./thumbnails/website.jpg"
 import pcamel from "./thumbnails/pcamel.jpg"
 import pppb from "./thumbnails/pppb.gif"
 import avoid from "./thumbnails/avoid.png"
+import vedat from "./thumbnails/vedat.jpg"
+import algocuts from "./thumbnails/algocuts.gif"
  
  
  export const projects = [
   {
     id: 1,
-    name: "Princess Camel - Louu Louuu Hotline Miami XIII Mashup",
-    shortDescription: "As it says in the music title, it's a sweet hip-hop mashup",
+    name: "Lots of Claps",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "Princess Camel - Album of Things #01",
+    shortDescription: "Debut album of Princess Camel (on Youtube, Soundcloud and Bandcamp)",
     year: "2019",
     tags: ["all","audio","remix"],
     image: pcamel,
-    url: "https://soundcloud.com/berk-ozdemir/louu-louu-hotline-miami-xiii-mashup"
+    url: "https://berkozdemir.bandcamp.com/album/album-of-things-01"
+  },
+  {
+    id: 1,
+    name: "vedat chili peppers",
+    shortDescription: "compilation album of live performances, field recordings, tracks",
+    year: "2019",
+    tags: ["all","audio","noise"],
+    image: vedat,
+    url: "https://berkozdemir.bandcamp.com/album/vedat-chili-peppers"
+  },
+  {
+    id: 1,
+    name: "Algocuts",
+    shortDescription: 'Algorithmic video composed from "audioset" dataset from Youtube',
+    year: "2019",
+    tags: ["all","software","video","python"],
+    image: algocuts,
+    url: "/algocuts"
   },
   {
     id: 1,
@@ -70,16 +99,16 @@ import avoid from "./thumbnails/avoid.png"
     url: "https://www.youtube.com/channel/UCGcKKjTklJOPIzEOhQHG6sg"
 
   },
-  {
-    id: 3,
-    name: "Live visuals",
-    shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing. Link goes to a test video.",
-    year: "2017",
-    tags: ["all","audiovisual","max"],
-    image: "https://thumbs.gfycat.com/VacantWelltodoAmericanbobtail-max-1mb.gif",
-    url: "https://www.youtube.com/watch?v=X2l8r2n_MI4"
+  // {
+  //   id: 3,
+  //   name: "Live visuals",
+  //   shortDescription: "Live visuals made with Max/Jitter and Quartz Composer using webcam feed, random GIF images and datamoshing. Link goes to a test video.",
+  //   year: "2017",
+  //   tags: ["all","audiovisual","max"],
+  //   image: "https://thumbs.gfycat.com/VacantWelltodoAmericanbobtail-max-1mb.gif",
+  //   url: "https://www.youtube.com/watch?v=X2l8r2n_MI4"
 
-  },
+  // },
 
   {
     id: 3,

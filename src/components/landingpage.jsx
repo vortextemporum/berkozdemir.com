@@ -12,7 +12,7 @@ class Landing extends Component {
             <div id=''>
              <P5Wrapper  sketch={sketch}/>
             <div className='pa4 ' id="sketch-holder"></div>
-                <div className='f2 tc ma4 near-black scode fw6 '>
+                {/* <div className='f2 tc ma4 near-black scode fw6 '>
                     <Typed 
                             strings={['re','re(re','re(re(re','re(re(re(re','re(re(re(re(re','re(re(re(re(re(re','re(re(re(re(re(re(re','re(re(re(re(re(re(re[[[mix]]]','re(re(re(re(re(re(re[[[mix]]])))))))'
                             ,'BERKberkBERKberkBERKberk','I kind of feel like', 'you', 'will', 'enjoy', 'this','website']} 
@@ -22,7 +22,7 @@ class Landing extends Component {
                             loop={true}
                             
                         />
-                </div>
+                </div> */}
             </div>
         )
     }

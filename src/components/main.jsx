@@ -15,6 +15,7 @@ import PPPB from './portfolio/works/pppb.jsx';
 import AwesomeSolos from './portfolio/works/awesomesolos.jsx';
 import CacoPhony from './portfolio/works/cacophony.jsx';
 import AvoidTheFeedback from './portfolio/works/avoidthefeedback.jsx';
+import AlgoCuts from './portfolio/works/algocuts.jsx';
 
 
 
@@ -41,6 +42,7 @@ class Main extends Component {
             <Route path='/things/awesomesolos' component={AwesomeSolos} />
             <Route path='/things/avoidthefeedback' component={AvoidTheFeedback} />
             <Route path='/things/cacophony' component={CacoPhony} />     
+            <Route path='/algocuts' component={AlgoCuts} />     
             </Switch>
         )
     }

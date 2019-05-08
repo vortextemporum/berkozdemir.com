@@ -60,7 +60,7 @@ class PIYScores extends Component {
 
                         > One of the performers starts reading a paragraph with a spesific tone/mood regardless of the text content, e.g., happy, joyful, hostile, silly, monotonous, ascetic, brutal, robotic, enraged, passionate (it’s open for performer’s imagination). <br /> <br /> 
 
-                        > Others can join anytime before everyone finishes their paragraph, reading their own paragraph with the similar tone/mood If a performer decides to read a new paragraph with a different tone/mood, the other performers stop reading immediately (they ca). <br /> <br /> 
+                        > Others can join anytime before everyone finishes their paragraph, reading their own paragraph with the similar tone/mood If a performer starts to read a new paragraph with a different tone/mood, the other performers stop reading immediately (they ca). <br /> <br /> 
 
                         > The performers can read no longer than a paragraph at a time. A past tone/mood can not be used again. The same paragraph can not be read again. <br /> <br /> 
 
@@ -83,6 +83,29 @@ class PIYScores extends Component {
                         > Recipient isn't obliged to decrypt the message. <br/><br/>
 
                         > > > > > I personally generated a PGP key with 4096 characters long (RSA) using the GPGTools for Mac, and wrote the whole private key to a a5 sized notebook. Check what <a className="yellow link" href="https://www.openpgp.org/">PGP</a> is, if you have no idea what I'm talking. Shoutout to <a className="link light-green" href="http://nickbriz.com">Nick Briz</a>, I discovered "PGP" thanks to his contact page on his website!
+                        
+                        <br />
+                        
+                    </div>
+                    <div id="letter" className="nunito grey bg-yellow pa4 fw8 fl w-100">
+                    
+                        <p className="f2 mb2 mt2 dark-green">#5 - making "the single God" angry</p> 
+                        <p className="f3 mt2 mb2 dark-green">for a person</p> 
+                        <p className="f3 mt2 dark-green">(2019)</p> 
+                        <p className="f4 dark-green">Duration: 30 seconds</p> 
+
+                        > Performer switches to 5 different religions of their choice in 30 seconds.
+                        <br/>
+                          
+                    </div>
+                    <div id="letter" className="nunito white bg-green pa4 fw8 fl w-100">
+                    
+                        <p className="f2 mb2 mt2 light-yellow">#6 - One Punch "in a while" Man</p> 
+                        <p className="f3 mt2 mb2 light-yellow">for people who wants to punch stuff</p> 
+                        <p className="f3 mt2 light-yellow">(2019)</p> 
+                        <p className="f4 mt2 light-yellow">Total duration: 24 Hours</p> 
+
+                        > Performer punches an object of their choice every 2 hours. 
                         
                         <br />
                         

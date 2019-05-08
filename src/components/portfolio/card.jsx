@@ -13,7 +13,7 @@ class Card extends Component {
         } = this.props;
 
         return (
-            <div className="ma2 dim">                
+            <div className="ma3 dim">                
                 <Scroll className="link near-black" title={name} url={url}>
                 
                     <Window
@@ -30,7 +30,7 @@ class Card extends Component {
                         <div className="tl code" style={{width:"295px"}}>
                             <h3 className="m0 fw-600">{name}</h3>
                             <p className=""><b>Year:</b>{year}</p>
-                            <span className="i">{shortDescription}</span>
+                            <span className="">{shortDescription}</span>
                             {/* <p className="">{tags}</p> */}
                         </div>
                     </Window>
