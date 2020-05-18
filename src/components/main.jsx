@@ -10,12 +10,14 @@ import CV from './cv.jsx';
 import News from './news.jsx';
 import PIYScores from './piyscores.jsx';
 import Listen from './listen.jsx';
+import CryptoThings from './crypto.jsx';
 
 import PPPB from './portfolio/works/pppb.jsx';
 import AwesomeSolos from './portfolio/works/awesomesolos.jsx';
 import CacoPhony from './portfolio/works/cacophony.jsx';
 import AvoidTheFeedback from './portfolio/works/avoidthefeedback.jsx';
-import AlgoCuts from './portfolio/works/algocuts.jsx';
+import AudiosetCuts from './portfolio/works/audiosetcuts.jsx';
+import Variations from './portfolio/works/variations.jsx';
 
 
 
@@ -37,12 +39,16 @@ class Main extends Component {
             <Route path='/news' component={News} />       
             <Route path='/piyscores' component={PIYScores} />       
             <Route path='/pppb' component={PPPB} />       
-            <Route path='/listen' component={Listen} />       
+            <Route path='/listen' component={Listen} />  
+            <Route path='/cryptothings' component={CryptoThings} />  
+
+
     
             <Route path='/things/awesomesolos' component={AwesomeSolos} />
             <Route path='/things/avoidthefeedback' component={AvoidTheFeedback} />
             <Route path='/things/cacophony' component={CacoPhony} />     
-            <Route path='/algocuts' component={AlgoCuts} />     
+            <Route path='/audiosetcuts' component={AudiosetCuts} />     
+            <Route path='/variations' component={Variations} />     
             </Switch>
         )
     }

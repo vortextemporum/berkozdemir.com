@@ -118,6 +118,12 @@ class Portfolio extends Component {
                         onChange={this.handleOptionChange}
                         className="dn" />
                     <label htmlFor="tab9" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#webart</label>
+                    
+                    <input id="tab10" type="radio" value="webart" 
+                        checked={this.state.activeTab === 'webart'}
+                        onChange={this.handleOptionChange}
+                        className="dn" />
+                    <label htmlFor="tab9" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#webart</label>
  
                 </div>
                
@@ -128,6 +134,5 @@ class Portfolio extends Component {
     ); }
     
 }
-
 
 export default Portfolio;

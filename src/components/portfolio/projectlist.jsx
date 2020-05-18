@@ -27,10 +27,127 @@ import algocuts from "./thumbnails/algocuts.gif"
  export const projects = [
   {
     id: 1,
+    name: "Self Survelliance Mosaics",
+    shortDescription: "I tracked my browser activity to download all images I encounter, and made image Mosaics with them using AndreaMosaic.",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "RareBERK Gallery",
+    shortDescription: "Berk's virtual gallery at CryptoVoxels",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "untitled",
+    shortDescription: "text published in Trance Zine Issue 2: Nerves",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "http://trancezine.com/ozdemir.html"
+  },
+  {
+    id: 1,
+    name: "BedroomNightOut Audiovisual performance",
+    shortDescription: "Made with Touchdesigner & NVIDIA DeepStream SDK for Jetson Nano",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "Re-exploring Videogames for Audiovisual Performance and Composition",
+    shortDescription: "ArtScience interfaculty, master's thesis",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://gateway.pinata.cloud/ipfs/QmauQTbpa1ugLBNTvw2qSvGKBH5EjgA8zZUmVhkQMhvrds"
+  },
+  {
+    id: 1,
+    name: "heEeeeeyoooOoO",
+    shortDescription: "2nd self-released album of Princess Camel. Includes 19 tracks. On many streaming platforms.",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://f4.bcbits.com/img/a3539669403_16.jpg",
+    url: "https://open.spotify.com/album/2VC2onupVr3vXk893sdFFI?si=cJST6fQdRQSKLbt-hr6Yjg"
+  },
+  {
+    id: 1,
+    name: "Bastard Gan Cryptopunks",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "d Number",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "Deepstream <3 OSC",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "Variations on an Advertisement",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
     name: "Lots of Claps",
     shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
     year: "2019",
     tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "Lots of Claps",
+    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    year: "2019",
+    tags: ["all","audio","remix","video","composition"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "$UGARWHALE",
+    shortDescription: "Princess Camel notices the existence of $UGARWHALES",
+    year: "2019",
+    tags: ["all","audio","music","composition","crypto"],
+    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  },
+  {
+    id: 1,
+    name: "SERIOUS SOUND RANDOMIZER",
+    shortDescription: "Jupyter Notebook script to randomize sounds in Serious Sam HD: TFE/TSE",
+    year: "2020",
+    tags: ["all","audio","remix","video","composition","game"],
     image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
     url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
   },
@@ -54,12 +171,12 @@ import algocuts from "./thumbnails/algocuts.gif"
   },
   {
     id: 1,
-    name: "Algocuts",
-    shortDescription: 'Algorithmic video composed from "audioset" dataset from Youtube',
+    name: "Audiosetcuts",
+    shortDescription: 'Fixed media video pieces, made with lots of videos from Audioset dataset of Google, and algorithmic video cuts toolset',
     year: "2019",
     tags: ["all","software","video","python"],
     image: algocuts,
-    url: "/algocuts"
+    url: "/audiosetcuts"
   },
   {
     id: 1,

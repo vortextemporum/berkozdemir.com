@@ -1,13 +1,35 @@
 import React, {Component} from 'react';
 
+import pcbanner from "./images/princesscamel/princesscamellbanner.png"
 
 export default class Listen extends Component {
     render() {
         return (
-            <div>
+            <div className="flex flex-column">
                 {/* <h1 className="f2 yatra tc mv4"> <span className="light-red">L</span><span className="light-green">I</span><span className="light-blue">S</span><span className="light-red">T</span><span className="light-green">E</span><span className="light-blue">N</span></h1> */}
+                <div className="w80 pa3 center"><img src={pcbanner}></img></div>
+
+
+                <div id="cont">
+                
+                <h1 className="f5 white pressstart2p tc mh4">
+                    Heir to the throne, only child of the monarch, Princess Camel, realizes one day, that ruling other camels is a horrible way of living a life.
+                    
+                    
+                    She decides to leave everything behind and study anthropology, kind of like Buddha but more like a digital buddha. 
+
+                    
+                                    
+                </h1>
+
+                <div>
+                    She starts bendin' & flippin' whatever she encounters and finds a use, to make music, and images.</div>
+                </div>
+                
+                
                 <div id="listencontainer" className="bg-black-70 shadow-4-l b--dashed b--orange w-80 center flex justify-around flex-wrap items-center mt3"> 
                     
+
                     <iframe className="ma3" style={{border: 0, width: 400 + 'px', height: 300 + 'px'}} src="https://bandcamp.com/EmbeddedPlayer/album=3125905424/size=large/bgcol=333333/linkcol=2ebd35/artwork=small/transparent=true/" seamless><a href="http://berkozdemir.bandcamp.com/album/album-of-things-01">Album of Things #01 by Princess Camel</a></iframe>
                     <iframe className="ma3" style={{border: 0, width: 400 + 'px', height: 300 + 'px'}} src="https://bandcamp.com/EmbeddedPlayer/album=2231919942/size=large/bgcol=333333/linkcol=2ebd35/artwork=small/transparent=true/" seamless><a href="http://berkozdemir.bandcamp.com/album/vedat-chili-peppers">Vedat Chili Peppers by Berk Özdemir</a></iframe>
                     <iframe className="ma3" style={{border: 0, width: 400 + 'px', height: 300 + 'px'}} src="https://bandcamp.com/EmbeddedPlayer/album=4196865636/size=large/bgcol=333333/linkcol=2ebd35/artwork=small/transparent=true/" seamless><a href="http://berkozdemir.bandcamp.com/album/tape-md2eu">tape/md2eu by Berk Özdemir</a></iframe>

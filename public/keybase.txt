@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/berkozdemir
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://berkozdemir.com
+  * I am berkozdemir (https://keybase.io/berkozdemir) on keybase.
+  * I have a public key ASDqjbYhRTwIKJlIXtEtCw9py-D7Tb1fXdcbdpgNjJkXEwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ea8db621453c082899485ed12d0b0f69cbe0fb4dbd5f5dd71b76980d8c9917130a",
+      "host": "keybase.io",
+      "kid": "0120ea8db621453c082899485ed12d0b0f69cbe0fb4dbd5f5dd71b76980d8c9917130a",
+      "uid": "e008034a7d913442cd07a6366c805b19",
+      "username": "berkozdemir"
+    },
+    "merkle_root": {
+      "ctime": 1573917056,
+      "hash": "71d2dd6c133c87f205346a360bdf7f3dc2db1453ae55210e6b5e517deaa1c10f20dff5e0c8ebf965c67fdbfdd4bbaad204af5ccc3afaf795fa2df5fc46c908c0",
+      "hash_meta": "eb53d01a55276eb8d55db5f3fc1aadfe170f6c4c51483113566f30b9d6436490",
+      "seqno": 9826292
+    },
+    "service": {
+      "entropy": "F9vVAsiYqBOrd9zjG2D6OsNM",
+      "hostname": "berkozdemir.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1573917080,
+  "expire_in": 504576000,
+  "prev": "7bdc72f9186eb948b5aa962ff9cb8fa6ee50302af92a1245626efdc0ff0522a4",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6o22IUU8CCiZSF7RLQsPacvg+029X13XG3aYDYyZFxMKp3BheWxvYWTESpcCE8Qge9xy+RhuuUi1qpYv+cuPpu5QMCr5KhJFYm79wP8FIqTEIFGdgTRb3mvBkkvwfb469+kqcit+jt0whUoo9C1AITQhAgHCo3NpZ8RAb6TyHsZTRkmFHTTYQge1R4gyGI7PVKQJllvFvGHpgN1q/i9BGO6x4vR3BKrUSFjxT7nFKXS9ESr4/VSSDvgBCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDj/ulNHlfNr9IWekf38nMTalt5wOZTmesJ2MHXPAfKYo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/berkozdemir
+
+==================================================================
