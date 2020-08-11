@@ -22,6 +22,7 @@ import pppb from "./thumbnails/pppb.gif"
 import avoid from "./thumbnails/avoid.png"
 import vedat from "./thumbnails/vedat.jpg"
 import algocuts from "./thumbnails/algocuts.gif"
+import nerves from "./thumbnails/nerves.jpg"
  
  
  export const projects = [
@@ -31,8 +32,8 @@ import algocuts from "./thumbnails/algocuts.gif"
     shortDescription: "I tracked my browser activity to download all images I encounter, and made image Mosaics with them using AndreaMosaic.",
     year: "2019",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: "https://ipfs.daonomic.com/ipfs/QmdZZiumxLCaDuGXeyvNb7TDoLDCHk3DGYmL84jJPRAq26",
+    url: "https://app.rarible.com/ssm/onsale"
   },
   {
     id: 1,
@@ -40,41 +41,41 @@ import algocuts from "./thumbnails/algocuts.gif"
     shortDescription: "Berk's virtual gallery at CryptoVoxels",
     year: "2019",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: "https://lh3.googleusercontent.com/EQK1Zq2YktA1De2x4oqVM4SMg_fGcLrBMvXszssaHeeIEnbYZhoiSRbzC0D6FNzo-e9Hgno9P2UHZ9pcN_L7dLpS2Q",
+    url: "https://www.cryptovoxels.com/parcels/2477"
   },
   {
     id: 1,
     name: "untitled",
     shortDescription: "text published in Trance Zine Issue 2: Nerves",
-    year: "2019",
+    year: "2020",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    image: nerves,
     url: "http://trancezine.com/ozdemir.html"
   },
   {
     id: 1,
-    name: "BedroomNightOut Audiovisual performance",
+    name: "BedroomLiveOut Audiovisual performance",
     shortDescription: "Made with Touchdesigner & NVIDIA DeepStream SDK for Jetson Nano",
-    year: "2019",
+    year: "2020",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: "https://toplap.org/wp-content/uploads/2020/04/FacebookBanner.jpeg",
+    url: "https://www.youtube.com/watch?v=hL9QXTFQdi4"
   },
   {
     id: 1,
     name: "Re-exploring Videogames for Audiovisual Performance and Composition",
     shortDescription: "ArtScience interfaculty, master's thesis",
-    year: "2019",
+    year: "2020",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+    image: "https://gateway.pinata.cloud/ipfs/QmTn7VYgYVPAwZtrH8BcKjUJQU1nMrpv7gdHqEbahBbKWh/tezss.png",
     url: "https://gateway.pinata.cloud/ipfs/QmauQTbpa1ugLBNTvw2qSvGKBH5EjgA8zZUmVhkQMhvrds"
   },
   {
     id: 1,
     name: "heEeeeeyoooOoO",
     shortDescription: "2nd self-released album of Princess Camel. Includes 19 tracks. On many streaming platforms.",
-    year: "2019",
+    year: "2020",
     tags: ["all","audio","remix","video","composition"],
     image: "https://f4.bcbits.com/img/a3539669403_16.jpg",
     url: "https://open.spotify.com/album/2VC2onupVr3vXk893sdFFI?si=cJST6fQdRQSKLbt-hr6Yjg"
@@ -82,48 +83,48 @@ import algocuts from "./thumbnails/algocuts.gif"
   {
     id: 1,
     name: "Bastard Gan Cryptopunks",
-    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
-    year: "2019",
-    tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    shortDescription: "10000 CryptoPunks are put into StyleGAN2 to give birth to bastard punks",
+    year: "2020",
+    tags: ["all","crypto"],
+    image: "https://ipfs.daonomic.com/ipfs/QmYAL1oeHUXkQrz3dS19jsaPuAQbwkZaKYCNQxvhCjsN94",
+    url: "https://app.rarible.com/bganpunks/onsale"
   },
-  {
-    id: 1,
-    name: "d Number",
-    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
-    year: "2019",
-    tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
-  },
+  // {
+  //   id: 1,
+  //   name: "d Number",
+  //   shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+  //   year: "2019",
+  //   tags: ["all","audio","remix","video","composition"],
+  //   image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+  //   url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  // },
   {
     id: 1,
     name: "Deepstream <3 OSC",
-    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
-    year: "2019",
-    tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    shortDescription: "Making instrument out of realtime object detection",
+    year: "2020",
+    tags: ["all","audio","remix","video","python"],
+    image: "https://gateway.pinata.cloud/ipfs/QmRRDTWCsxqE4JfHZDzUqGRwXJKQAZ8Jox2dbkP8FR4H5U/deeposcexample2.png",
+    url: "https://www.youtube.com/watch?v=6JwX-vOz1Hg"
   },
   {
     id: 1,
     name: "Variations on an Advertisement",
-    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+    shortDescription: "Algorithmic video cut composition made out of a 30 seconds long advertisement video",
     year: "2019",
     tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: rumba,
+    url: "https://youtube.com/watch?v=lcP5vHo7piw"
   },
-  {
-    id: 1,
-    name: "Lots of Claps",
-    shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
-    year: "2019",
-    tags: ["all","audio","remix","video","composition"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
-  },
+  // {
+  //   id: 1,
+  //   name: "Lots of Claps",
+  //   shortDescription: "Transmedial composition for drum machines, people & videos, performed in Le Dome, Caen, France",
+  //   year: "2019",
+  //   tags: ["all","audio","remix","video","composition"],
+  //   image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
+  //   url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+  // },
   {
     id: 1,
     name: "Lots of Claps",
@@ -136,11 +137,11 @@ import algocuts from "./thumbnails/algocuts.gif"
   {
     id: 1,
     name: "$UGARWHALE",
-    shortDescription: "Princess Camel notices the existence of $UGARWHALES",
-    year: "2019",
+    shortDescription: "Audio NFT",
+    year: "2020",
     tags: ["all","audio","music","composition","crypto"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: "https://5w73scj45cikancjvpdabiijj6oen2g3feegzp56aw3n5xpktcaq.arweave.net/7b-5CTzokKA0SavGAKEJT5xG6NspCGy_vgW23t3qmIE",
+    url: "https://mintbase.io/minter/0xd43f974bb7f15442556351e2dd4a2e5d8d7592fb/0xc5e08104c19dafd00fe40737490da9552db5bfe5"
   },
   {
     id: 1,
@@ -148,8 +149,8 @@ import algocuts from "./thumbnails/algocuts.gif"
     shortDescription: "Jupyter Notebook script to randomize sounds in Serious Sam HD: TFE/TSE",
     year: "2020",
     tags: ["all","audio","remix","video","composition","game"],
-    image: "https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clapping-hands.png",
-    url: "https://www.youtube.com/watch?v=H3RPT2ZMvOs"
+    image: "https://logonoid.com/images/serious-sam-logo.png",
+    url: "https://www.youtube.com/watch?v=xz176X4MDz4"
   },
   {
     id: 1,

@@ -119,11 +119,11 @@ class Portfolio extends Component {
                         className="dn" />
                     <label htmlFor="tab9" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#webart</label>
                     
-                    <input id="tab10" type="radio" value="webart" 
-                        checked={this.state.activeTab === 'webart'}
+                    <input id="tab10" type="radio" value="crypto" 
+                        checked={this.state.activeTab === 'crypto'}
                         onChange={this.handleOptionChange}
                         className="dn" />
-                    <label htmlFor="tab9" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#webart</label>
+                    <label htmlFor="tab10" className="f6 f5-l bg-animate black-80 hover-bg-light-pink pointer:hover dib pa3 ph4-l">#crypto</label>
  
                 </div>
                
