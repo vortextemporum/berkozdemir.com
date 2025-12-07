@@ -58,7 +58,7 @@ export default class CryptoThings extends Component {
 
                         
                     <div className="center">
-                        <img src={rareberkpic}></img>
+                        <img src={rareberkpic} alt="RareBERK Cryptovoxels gallery"></img>
                         <a className="f3 tc link red " href="https://www.cryptovoxels.com/parcels/2477">GO GO GO SEE SEE SEE</a>
                     
 

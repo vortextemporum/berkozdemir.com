@@ -55,7 +55,7 @@ export default function sketch(p) {
             for (let j = 0; j < rows; j++) {
                 let x = i * resolution;
                 let y = j * resolution;
-                if (grid[i][j] == 1) {
+                if (grid[i][j] === 1) {
                     p.fill(Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255));
                     p.stroke(100);
                     p.rect(x, y, resolution - 1, resolution - 1);
@@ -73,9 +73,9 @@ export default function sketch(p) {
                 // let sum = 0;
                 let neighbors = countNeighbors(grid, i, j);
 
-                if (state == 0 && neighbors == 3) {
+                if (state === 0 && neighbors === 3) {
                     next[i][j] = 1;
-                } else if (state == 1 && (neighbors < 2 || neighbors > 3)) {
+                } else if (state === 1 && (neighbors < 2 || neighbors > 3)) {
                     next[i][j] = 0;
                 } else {
                     next[i][j] = state;

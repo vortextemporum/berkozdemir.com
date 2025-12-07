@@ -4,8 +4,6 @@ import sketch from "../sketches/letter";
 import '../css/landing.css';
 import Typed from 'react-typed';
 
-var stringsfortext = ['trashart', 'errors', 'computer graphics', 'smart contracts', 'screenshots', 'datasets', 'modding', 'sampling', 'everything is a remix', 'everything is a software', 'internet art', 'post internet art', 'post post internet art', 'post post post internet art', 'mashup', 'script', 'automation', 'machine learning', 'NFT', 'crypto', 'raredigitalart', 'algorithms', 'videogames', 'princess camel', 'prenses cemal', 'princesscamel.eth', 'dnumber','ipfs', 'ab123', 'streaming','music','noise','chance','randomness','probability','modular synths','creative coding','blockchain','code bending','data bending', 'glitch', 'jazz', 'microtonality', 'instruments & interfaces','new media', 'xr']
-
 class Landing extends Component {
     render() {
         return(

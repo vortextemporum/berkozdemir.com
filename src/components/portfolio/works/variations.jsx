@@ -7,7 +7,7 @@ export default class Variations extends Component {
     
         <div className="code w-90 bg-white-60 b--dashed b--orange mt2 pv3 ph6   center near-black">
         <div className="flex flex-wrap justify-center">
-            <iframe className="center" width="560" height="315" src="https://www.youtube.com/embed/lcP5vHo7piw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
+            <iframe title="Variations on an Advertisement video" className="center" width="560" height="315" src="https://www.youtube.com/embed/lcP5vHo7piw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
         </div>
         
             <h1 className="f1 tc yatra">Variations on an Advertisement</h1>

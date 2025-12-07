@@ -85,18 +85,18 @@ export default function sketch(p) {
                     tr.parent(table);
                     for (var row = 0; row < newletter[col].length; row++) {
                         let cell = newletter[col][row];
-                        if (cell == 1)  {
+                        if (cell === 1)  {
                             let td = p.createElement('td');
                             td.addClass("cell");
                             td.parent(tr);
                             var check = p.createCheckbox();
                             check.addClass("check");
                             check.parent(td);
-                        } else if (cell == 0) {
+                        } else if (cell === 0) {
                             let td = p.createElement('td');
                             td.addClass("cell");
                             td.parent(tr);
-                        } else if (cell == "-") {
+                        } else if (cell === "-") {
                             let td = p.createElement('td');
                             td.addClass("gap");
                             td.parent(tr);

@@ -29,48 +29,48 @@ export default class PPPB extends Component {
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">quartet #01</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/h82d2kINH8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB quartet #01" width="560" height="315" src="https://www.youtube.com/embed/h82d2kINH8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">piece 1</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zc2SOyyX6qA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB piece 1" width="560" height="315" src="https://www.youtube.com/embed/Zc2SOyyX6qA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">white room etude #01 for square squad</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eUFSybVsSno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe title="PPPB white room etude #01" width="560" height="315" src="https://www.youtube.com/embed/eUFSybVsSno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">white room etude #02 for square squad</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w2GLPufYN_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe title="PPPB white room etude #02" width="560" height="315" src="https://www.youtube.com/embed/w2GLPufYN_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">white room etude #03 for square squad</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gHhZwwMSSTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe title="PPPB white room etude #03" width="560" height="315" src="https://www.youtube.com/embed/gHhZwwMSSTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
                 
                 <div className="ma2">
                     <h3 className="nunito">awesome crossfire solos</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1He1nG98Rec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe title="PPPB awesome crossfire solos" width="560" height="315" src="https://www.youtube.com/embed/1He1nG98Rec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
                 <div className="ma2">
                     <h3 className="nunito">midi keyboard test</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7w2HnKfjsTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB midi keyboard test" width="560" height="315" src="https://www.youtube.com/embed/7w2HnKfjsTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className=" ma2">
                     <h3 className="nunito">clapping piece #01</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wmDZmhrVUfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <iframe title="PPPB clapping piece #01" width="560" height="315" src="https://www.youtube.com/embed/wmDZmhrVUfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
                 <div className=" ma2">
                     <h3 className="nunito">finger snapping piece #01</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dPegR2iyVgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB finger snapping piece #01" width="560" height="315" src="https://www.youtube.com/embed/dPegR2iyVgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className=" ma2">
                     <h3 className="nunito">finger snapping piece #02</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/u1zjTt4h38U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB finger snapping piece #02" width="560" height="315" src="https://www.youtube.com/embed/u1zjTt4h38U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className=" ma2">
                     <h3 className="nunito">algorithmic study #01</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7p2aVs2JblQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="PPPB algorithmic study #01" width="560" height="315" src="https://www.youtube.com/embed/7p2aVs2JblQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

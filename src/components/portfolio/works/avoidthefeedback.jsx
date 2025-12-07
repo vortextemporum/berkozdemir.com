@@ -13,8 +13,8 @@ export default class AlgoCuts extends Component {
                 <div id="avoidright" className="w-50">
                     <p className="f1 tc center">Or watch the 2 short videos I recorded from it.</p>
                     <div className="flex justify-around">
-                    <iframe width="400" height="300" src="https://www.youtube.com/embed/UC7rKy0NcEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="400" height="300" src="https://www.youtube.com/embed/HY4oAxT8GKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Avoid the Feedback video 1" width="400" height="300" src="https://www.youtube.com/embed/UC7rKy0NcEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Avoid the Feedback video 2" width="400" height="300" src="https://www.youtube.com/embed/HY4oAxT8GKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             
